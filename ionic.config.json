@@ -1,0 +1,7 @@
+{
+  "name": "miCiudadLimpia",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

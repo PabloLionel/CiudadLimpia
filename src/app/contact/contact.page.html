@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Registrar Denuncia
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src="assets/img/default_foto.png" />
+    <ion-card-content>
+      <ion-card-title>
+        <ion-item>
+          <ion-label>
+            Caso
+          </ion-label>
+          <ion-select>
+            <!-- <ion-option>
+                    </ion-option> -->
+          </ion-select>
+        </ion-item>
+      </ion-card-title>
+        <h2 style="color: black; font-weight: bold; padding-left: 12px">
+            Detalles
+        </h2 >
+      <p>
+        <ion-textarea></ion-textarea>
+      </p>
+      <ion-list>
+        <ion-item>
+          <ion-label>Fecha</ion-label>
+          <ion-datetime displayFormat="MMM DD, YYYY" min="2018-08-26" max="2022-12-09"></ion-datetime>
+        </ion-item>
+      </ion-list>
+      <ion-item>
+        <ion-label>Hora</ion-label>
+        <ion-datetime displayFormat="hh:mm A"></ion-datetime>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      Ubicacion
+    </ion-card-header>
+    <ion-card-content>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.0107919786237!2d-58.83605494895892!3d-27.4689233828073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456ca168bc9c55%3A0xa07bf0757da70fc!2sHip%C3%B3lito+Yrigoyen+1399-1301%2C+W3400ATD+Corrientes!5e0!3m2!1ses!2sar!4v1540568596191" height="300" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+      <ion-label>
+        Descripción
+      </ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-card-content>
+  </ion-card>
+  <button ion-button class="btnDenuncia" outline>Denunciar</button>
+</ion-content>

@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Listado de denuncias</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- The world is your oyster.
+  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p> -->
+  <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+        {{ item[0] }} :  {{ item[1] }}
+    </button>  
+  </ion-list>
+</ion-content>
